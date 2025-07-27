@@ -16,7 +16,7 @@ void main() {
   planForFuture(income);
 }
 void estimateDryDate(double balance) {
-  //Assuming the daily spending rate is KES 100
+  //Assuming the daily spending rate is $100
   double dailySpend = 100.0;
   int daysLeft = (balance / dailySpend).floor();
   print("Your balance will last approximately $daysLeft days.");
